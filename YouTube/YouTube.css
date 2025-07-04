@@ -1,0 +1,396 @@
+@font-face {
+    font-family: vazirRegular;
+    src: url(font/Vazirmatn/Vazirmatn-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+}
+body{
+    font-family: vazirRegular;
+    min-height: 100vh;
+    margin-bottom: 20rem ;
+}
+.mainpic {
+    object-fit: contain;    
+    width: 100%;
+}
+.nav {
+    display: flex;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    right: 0;
+    margin-right: 5rem;
+    gap: 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-top: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    border-radius: 1rem;
+    justify-content: space-between;
+
+
+}
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: right;
+    margin-right:2rem;
+}
+.nav_links a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.phone_detail{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 47, 202);
+    border-radius: 1rem;
+    height: 2rem;
+    bottom: 0.3rem;
+    left: 1rem;
+}
+.phone_detail a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    direction: ltr;
+    padding: 0.2rem 0.5rem;
+}
+.phone_icon {
+    position: relative;
+    right: 0.15rem;
+    object-fit: contain;
+    width: 1.6rem;
+    margin-left: 0.3rem;
+}
+.main_content{
+    position: absolute;
+    width: 20rem;
+    background-color: white;
+    top: 10rem;
+    right: 3rem;
+    border-radius: 1rem;
+    border-top-left-radius: 4rem;
+    font-size: 16px;
+    padding: 1rem;
+}
+.main_button {
+    position: absolute ;
+    top: 21rem;
+    right: 4rem;
+    background-color: rgb(65, 68, 211);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor :pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: vazirRegular;
+}
+.main_button svg {
+    width: 18px;
+}
+.services_title p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 20px;
+
+}
+.containar2 {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+}
+.item1 {
+    position: relative;
+    background-color: rgba(67, 135, 212, 0.459);
+    border-radius: 1rem;
+}
+.item1 p {
+    max-width: 12rem;
+}
+.health_logo{
+    position: relative;
+    width: 4rem;
+    top: 2rem;
+    right: 1rem;
+    margin-bottom: 3rem;
+}
+.item1 h2{
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    right: 0.8rem;
+}
+.item1 p {
+    position: relative;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+}
+.arrow_logo{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: -0.3rem;
+    bottom: -0.3rem;
+    border-radius: 0.5rem;
+    border-top-right-radius: 1.4rem;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 0.8rem;
+    width: 18px;
+    padding: 0.6rem;
+    
+    
+    
+
+}
+.containar3{
+    display: flex;
+    gap: 8rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border: 10px solid rgba(0, 0, 0, 0);
+    height: 35rem;
+    
+    
+}
+.img_containar3 {
+    position: relative;
+    object-fit: contain;
+    width:100%;
+    height: 100%;
+    border-radius: 2rem;
+    
+    
+    
+}
+.imgdiv_containar3{
+    flex-shrink: 0;
+}
+.cn3_p1{
+    padding-top: 2rem;
+    font-size: 18px;
+}
+.text_containar3 h2{
+    font-size: 1.3rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    
+
+}
+.cn3_button{
+    background-color: rgb(65, 68, 211);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor :pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: vazirRegular;
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {  
+}
+
+
+
+
+
+@media (max-width: 1030px) { 
+    .item1 p {
+    max-width: 10rem;
+}
+.containar3{
+    gap: 4rem;
+}
+}
+
+
+
+
+
+@media (max-width: 992px) {
+.item1 p {
+    max-width: 8rem;
+}
+.text_containar3 h2{
+    margin-top: 3rem ;
+}
+.containar3{
+    margin-left: 2rem;
+}
+}
+
+
+
+
+
+@media (max-width: 865px) { 
+.containar3{
+        height: 30rem;
+        margin-left: 1rem;
+        margin-right: 2rem;
+}
+.cn3_p2{
+        padding-left:10px ;
+}
+.text_containar3 h2{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.item1 p {
+    max-width: 6rem;
+}
+.item1 h2{
+        font-size: 0.9rem;
+}
+}
+
+
+
+
+
+@media (max-width: 768px) {
+.main_content{
+    position: absolute;
+    width: 20rem;
+    background-color: white;
+    top: 10rem;
+    right: 3rem;
+    border-radius: 1rem;
+    border-top-left-radius: 4rem;
+    font-size: 13px;
+    padding: 1rem;
+}
+.main_button {
+    position: absolute ;
+    top: 17.5rem;
+    right: 4rem;
+}
+.main_button svg {
+    width: 18px;
+}
+.phone_detail a{
+    font-size: 10px;
+}
+.nav_links a {
+    font-size: 0.81rem;
+}
+.nav_links {
+    margin-right: 1rem;
+}
+.item1 p {
+    max-width: 13rem;
+
+}
+.containar3{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    gap: 1rem;
+    height: 25rem;
+}
+.cn3_button{
+    margin-top: 2rem;
+}
+.cn3_p2{
+    
+    font-size: 16px;
+}
+.text_containar3 h2{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+.cn3_p1{
+    padding-top: 0.5rem;
+    font-size: 18px;
+}
+}
+
+
+
+
+@media (max-width: 630px){
+.cn3_button{
+    margin-top: 0.5rem;
+}
+}
+
+
+
+
+
+@media (max-width: 576px){
+.main_content{
+
+    width: 15rem;
+    top: 2rem;
+    right: 0rem;
+    left: 0rem;
+    margin-inline: auto;
+    font-size: 10px;
+    opacity: 0.7;
+
+}
+
+.main_button {
+
+    position: absolute ;
+    top: 10rem;
+    font-size: 10px; 
+    right: 0rem;
+    left: 0rem;
+    margin-inline: auto;
+    width: max-content;
+    
+}
+
+.main_button svg {
+    width: 18px;
+}
+
+.nav{
+    display: none;
+}
+
+.containar3{
+    flex-direction: column;
+}
+
+
+}
+
+
+
